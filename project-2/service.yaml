@@ -7,7 +7,7 @@ spec:
   selector:
     app: time-service
   ports:
-    - protocol: TCP
-      port: 3030
-      targetPort: 3030
-      nodePort: 30030
+  - protocol: TCP
+    port: 3030
+    targetPort: 3030
+    nodePort: 30303  # NodePort range is 30000-32767
