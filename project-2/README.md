@@ -37,3 +37,6 @@ minikube ip
 ```bash
 http://<minikube-ip>:30303
 ```
+
+## Final Output
+![Application Output](output.png)
